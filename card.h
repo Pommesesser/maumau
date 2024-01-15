@@ -22,5 +22,7 @@ typedef struct
 
 Card *create_card(enum Rank card_rank, enum Suit card_suit);
 Card **create_card_array();
+void free_card(Card *card);
+void free_card_array(Card **card_array);
 
 #endif //MAUMAU2_CARD_H

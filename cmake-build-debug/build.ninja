@@ -55,8 +55,14 @@ build CMakeFiles/MauMau2.dir/main.c.obj: C_COMPILER__MauMau2_unscanned_Debug C$:
   OBJECT_DIR = CMakeFiles\MauMau2.dir
   OBJECT_FILE_DIR = CMakeFiles\MauMau2.dir
 
-build CMakeFiles/MauMau2.dir/Card.c.obj: C_COMPILER__MauMau2_unscanned_Debug C$:/Users/David/CLionProjects/MauMau2/Card.c || cmake_object_order_depends_target_MauMau2
-  DEP_FILE = CMakeFiles\MauMau2.dir\Card.c.obj.d
+build CMakeFiles/MauMau2.dir/card.c.obj: C_COMPILER__MauMau2_unscanned_Debug C$:/Users/David/CLionProjects/MauMau2/card.c || cmake_object_order_depends_target_MauMau2
+  DEP_FILE = CMakeFiles\MauMau2.dir\card.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\MauMau2.dir
+  OBJECT_FILE_DIR = CMakeFiles\MauMau2.dir
+
+build CMakeFiles/MauMau2.dir/debug.c.obj: C_COMPILER__MauMau2_unscanned_Debug C$:/Users/David/CLionProjects/MauMau2/debug.c || cmake_object_order_depends_target_MauMau2
+  DEP_FILE = CMakeFiles\MauMau2.dir\debug.c.obj.d
   FLAGS = -g -std=gnu11 -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\MauMau2.dir
   OBJECT_FILE_DIR = CMakeFiles\MauMau2.dir
@@ -69,7 +75,7 @@ build CMakeFiles/MauMau2.dir/Card.c.obj: C_COMPILER__MauMau2_unscanned_Debug C$:
 #############################################
 # Link the executable MauMau2.exe
 
-build MauMau2.exe: C_EXECUTABLE_LINKER__MauMau2_Debug CMakeFiles/MauMau2.dir/main.c.obj CMakeFiles/MauMau2.dir/Card.c.obj
+build MauMau2.exe: C_EXECUTABLE_LINKER__MauMau2_Debug CMakeFiles/MauMau2.dir/main.c.obj CMakeFiles/MauMau2.dir/card.c.obj CMakeFiles/MauMau2.dir/debug.c.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\MauMau2.dir

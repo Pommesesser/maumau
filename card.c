@@ -2,7 +2,7 @@
 // Created by David on 15.01.2024.
 //
 
-#include "Card.h"
+#include "card.h"
 
 Card *create_card(enum Rank card_rank, enum Suit card_suit)
 {
@@ -29,4 +29,18 @@ Card **create_card_array()
     }
 
     return card_array;
+}
+
+void free_card(Card *card)
+{
+    free(card);
+}
+
+void free_card_array(Card **card_array)
+{
+    for (int i = 0; i < CARDS; i++)
+    {
+        free_card(card_array[i]);
+    }
+    free(card_array);
 }

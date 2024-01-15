@@ -4,6 +4,8 @@ project(MauMau2 C)
 set(CMAKE_C_STANDARD 11)
 
 add_executable(MauMau2 main.c
-        Card.c
-        Card.h
+        card.c
+        card.h
+        debug.c
+        debug.h
 )
