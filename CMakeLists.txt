@@ -8,4 +8,6 @@ add_executable(MauMau2 main.c
         card.h
         debug.c
         debug.h
+        card_array.c
+        card_array.h
 )
