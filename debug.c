@@ -12,7 +12,7 @@ void debug_print_card_array(Card **card_array)
     }
 }
 
-const char* rank_to_string(enum Rank rank)
+const char* debug_rank_to_string(enum Rank rank)
 {
     switch (rank)
     {
@@ -33,7 +33,7 @@ const char* rank_to_string(enum Rank rank)
     }
 }
 
-const char* suit_to_string(enum Suit suit)
+const char* debug_suit_to_string(enum Suit suit)
 {
     switch (suit)
     {
