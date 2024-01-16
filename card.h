@@ -7,6 +7,7 @@
 
 #include "stdlib.h"
 
+
 #define RANKS 13
 #define SUITS 4
 #define CARDS 52
@@ -21,8 +22,6 @@ typedef struct
 } Card;
 
 Card *create_card(enum Rank card_rank, enum Suit card_suit);
-Card **create_card_array();
-void free_card(Card *card);
-void free_card_array(Card **card_array);
+
 
 #endif //MAUMAU2_CARD_H
